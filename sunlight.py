@@ -17,7 +17,7 @@ with open('accounts2.tsv','w') as outfile:
 		state_short = unicode(person['state'])
 		chamber = unicode(person['chamber'])
 		gender = unicode(person['gender'])
-		twitter_id = unicode(person[u'twitter_id'] if 'twitter_id' in person else None)
+		twitter_id = person[u'twitter_id'] if 'twitter_id' in person else None
 		# skip line if no twitter account
 		if not twitter_id: continue
 		line = firstname + " " + lastname + "\t" +  state_name + "\t" + chamber + "\t" + twitter_id 
