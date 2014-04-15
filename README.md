@@ -1,5 +1,9 @@
 Todo:
-
+- Website
+ - What platform to use? (Wordpress or Google App Engine or Heroku)
+ - Plotting tools? D3js or Google Charts or something else?
+- Report
+ - In Latex?
 - Assign political party to politicians
 - Get tweets from timeline
 - Bayesian Classifier 
