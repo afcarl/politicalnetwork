@@ -1,7 +1,7 @@
 from twython import Twython
 import re
 import requests
-
+import time
 # Import Authenticate Info
 from auth import *
 
@@ -33,8 +33,9 @@ file = open('tweets.tsv', 'w')
 
 count = 0 # remove this
 for user in accounts:
+	timea = time.time()
+	print "fetching",user
 	count += 1 # remove this
-	if count > 1: break
 	if count % 150 == 0:
 		time.sleep(15*60)
     	try:
@@ -61,7 +62,8 @@ for user in accounts:
 		line += tweet_time + "\t"
 		line += utc_offset + "\t"
 		line += tweet_txt + '\n'
-        	#file.write(line.encode("UTF-8"))
+        	file.write(line.encode("UTF-8"))
 	
+	print time.time()- timea
 file.close()
 
