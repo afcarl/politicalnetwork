@@ -9,7 +9,7 @@ request_str = "http://congress.api.sunlightfoundation.com/legislators?per_page=a
 r = requests.get(request_str)
 content = json.loads(r.text)
 
-with open('accounts2.tsv','w') as outfile:
+with open('accounts.tsv','w') as outfile:
 	for person in content['results']:
 		lastname = unicode(person['last_name'])
 		firstname = unicode(person['first_name'])
@@ -17,9 +17,9 @@ with open('accounts2.tsv','w') as outfile:
 		state_short = unicode(person['state'])
 		chamber = unicode(person['chamber'])
 		gender = unicode(person['gender'])
+		party = unicode(person['party'])
 		twitter_id = person[u'twitter_id'] if 'twitter_id' in person else None
 		# skip line if no twitter account
 		if not twitter_id: continue
-		line = firstname + " " + lastname + "\t" +  state_name + "\t" + chamber + "\t" + twitter_id 
+		line = firstname + " " + lastname + "\t" +  state_short + "\t" + chamber + "\t" + party  + "\t" + twitter_id 
 		outfile.write(line.encode("utf8") + "\n")
-
