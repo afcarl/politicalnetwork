@@ -18,6 +18,8 @@ with open('accounts2.tsv','w') as outfile:
 		chamber = unicode(person['chamber'])
 		gender = unicode(person['gender'])
 		twitter_id = unicode(person[u'twitter_id'] if 'twitter_id' in person else None)
+		# skip line if no twitter account
+		if not twitter_id: continue
 		line = firstname + " " + lastname + "\t" +  state_name + "\t" + chamber + "\t" + twitter_id 
 		outfile.write(line.encode("utf8") + "\n")
 
