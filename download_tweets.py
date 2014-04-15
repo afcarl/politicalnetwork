@@ -1,4 +1,6 @@
 from twython import Twython
+import re
+import requests
 
 # Import Authenticate Info
 from auth import *
@@ -32,6 +34,7 @@ file = open('tweets.tsv', 'w')
 count = 0 # remove this
 for user in accounts:
 	count += 1 # remove this
+	if count > 1: break
 	if count % 150 == 0:
 		time.sleep(15*60)
     	try:
@@ -41,6 +44,12 @@ for user in accounts:
    	for tweet in tweets:
         	tweet_txt = tweet['text']
 		tweet_time = tweet['created_at']
+		# get real url for all mentioned urls
+		urls = []
+		for url in [url['expanded_url'] for url in tweet['entities']['urls']]:
+			r = requests.get(url,allow_redirects=True)
+			real_url = re.search("://(.+?)/",r.url).group(1)
+			urls.append(real_url)
 		utc_offset = str(tweet['user']['utc_offset'])
 		mentions = [ m['screen_name'] for m in tweet['entities']['user_mentions']]
         	line = user + "\t" 
@@ -48,10 +57,11 @@ for user in accounts:
 		line += accounts[user]['party'] + "\t" 
 		line += accounts[user]['chamber'] + "\t"
 		line += ",".join(mentions) + "\t"
+		line += ",".join(urls) + "\t"
 		line += tweet_time + "\t"
 		line += utc_offset + "\t"
 		line += tweet_txt + '\n'
-        	file.write(line.encode("UTF-8"))
+        	#file.write(line.encode("UTF-8"))
 	
 file.close()
 
