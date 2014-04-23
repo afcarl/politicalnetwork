@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1dd3c861-0859-4ab2-a7f8-b23ff96e69c8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tweets.tsv" afterPath="$PROJECT_DIR$/tweets.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classify_tweets.py" afterPath="$PROJECT_DIR$/classify_tweets.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download_tweets.py" afterPath="$PROJECT_DIR$/download_tweets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="politicalnetwork.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="download_tweets.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="download_tweets.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/download_tweets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="23" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1185">
+            <state line="21" column="20" selection-start="431" selection-end="431" vertical-scroll-proportion="0.3301887" vertical-offset="0" max-vertical-offset="1185">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -51,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classify_tweets.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="classify_tweets.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classify_tweets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="35" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.5846645" vertical-offset="186" max-vertical-offset="1125">
+            <state line="49" column="35" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1125">
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -79,8 +78,8 @@
         <option value="$PROJECT_DIR$/auth.py" />
         <option value="$PROJECT_DIR$/test_twitter.py" />
         <option value="$PROJECT_DIR$/classifier.py" />
-        <option value="$PROJECT_DIR$/download_tweets.py" />
         <option value="$PROJECT_DIR$/classify_tweets.py" />
+        <option value="$PROJECT_DIR$/download_tweets.py" />
       </list>
     </option>
   </component>
@@ -256,6 +255,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,9 +279,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -366,11 +365,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16483517" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901296" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37118438" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="846" y="39" width="581" height="1028" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37083334" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="846" y="39" width="581" height="1028" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -398,6 +397,31 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="55" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download_tweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1755">
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classify_tweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="35" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="1125">
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/download_tweets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="33" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="945">
@@ -479,20 +503,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/download_tweets.py">
+    <entry file="file://$PROJECT_DIR$/classify_tweets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="23" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1185">
+        <state line="49" column="35" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1125">
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classify_tweets.py">
+    <entry file="file://$PROJECT_DIR$/download_tweets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="35" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.5846645" vertical-offset="186" max-vertical-offset="1125">
+        <state line="21" column="20" selection-start="431" selection-end="431" vertical-scroll-proportion="0.3301887" vertical-offset="0" max-vertical-offset="1185">
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
