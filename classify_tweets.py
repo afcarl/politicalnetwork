@@ -68,3 +68,5 @@ for word, party, value in ordered:
 
 democrats_top25 = sorted(democrats.items(), key=lambda x: x[1], reverse=True)[:50]
 republicans_top25 = sorted(republicans.items(), key=lambda x: x[1], reverse=True)[:50]
+
+print democrats_top25

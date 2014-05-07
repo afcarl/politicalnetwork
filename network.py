@@ -33,7 +33,7 @@ for line in file('tweets.tsv'):
 degrees = g.degree()
 g.remove_node("")
 for node in degrees:
-	if degrees[node] < 20:
+	if degrees[node] < 10:
 		g.remove_node(node)
 
 

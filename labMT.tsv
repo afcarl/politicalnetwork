@@ -1,4 +1,3 @@
-word	happiness_rank	happiness_average	happiness_standard_deviation	twitter_rank	google_rank	nyt_rank	lyrics_rank
 laughter	1	8.50	0.9313	3600	--	--	1728
 happiness	2	8.44	0.9723	1853	2458	--	1230
 love	3	8.42	1.1082	25	317	328	23
